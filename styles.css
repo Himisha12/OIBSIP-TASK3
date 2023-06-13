@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #f8f3eb; /* Pastel green */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-field,
+  .select-field,
+  .convert-button {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #ff80ab; /* Vibrant pink */
+    border-radius: 5px;
+    color: #333333;
+    box-sizing: border-box;
+  }
+  .convert-button {
+    background-color: #fc5185; /* Vibrant color */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .convert-button:hover {
+    background-color: #ff7eb6; /* Lighter shade of the button color */
+    transform: scale(1.05);
+  }
+  
+ 
+  .show-history-button {
+    margin-top: 20px;
+    background-color: #6195c5; /* Dark color */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px; /* Increase padding for a bigger button */
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none; /* Remove button outline */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .show-history-button:hover {
+    background-color: #2f578b; /* Darker shade of the button color */
+    transform: scale(1.05); /* Increase button size on hover */
+  }
+  
+  .result-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #79698d; /* Dark violet */
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  
